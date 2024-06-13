@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Mynerve&family=Satisfy&display=swap');
+
+:root {
+  --primary-color: #010203;
+  --bg-color: c0c0c0;
+  --font-color: #49e3e8;
+  --bg: white;
+  --font-style: 'Caveat', cursive;
+  --font-v2: 'Mynerve', cursive;
+  --font-h: 'Satisfy', cursive;
+}
+
+.navbar {
+  background-color: var(--bg-color);
+}
+
+#navbarNav a {
+  text-decoration: none;
+}
+
+.brand {
+  font-family: var(--font-style);
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.LogoBrand {
+  color: var(#708090);
+  font-size: 1.8em;
+  font-family: var(--font-style);
+  font-weight: 500;
+}
+
+.noteTeks {
+  text-align: center;
+}
+
+.card-siswa table tr td:nth-child(3){
+ color: 0000000;
+}
+
+.card-siswa {
+  background-color: var(--bg-color);
+}
+
+.card-siswa .edit {
+  margin-left: 3em;
+}
+.card-siswa .edit, .card-siswa #delete {
+  border-radius: .2em;
+  border: 2px solid black;
+}
+
+.card-siswa button a {
+  text-decoration: none;
+}
+.card-siswa {
+  border-radius: 1em;
+  border: 1px solid #808080;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.25), 0 1px 2px -1px rgb(0 0 0 / 0.25);
+}
+
+.total-peserta {
+  color: var(--primary-color);
+}
+.edit,.delete {
+  text-decoration: none;
+}
+
+.delete::before {
+  content: "|";
+  color: black;
+}
